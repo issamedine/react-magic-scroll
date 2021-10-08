@@ -1,0 +1,102 @@
+/* germany view */
+.container-view {
+  .title-view-germany {
+    position: absolute;
+    bottom: 40px;
+    height: 325px !important;
+    overflow: hidden;
+  }
+  .title-view-germany div {
+    position: relative;
+  }
+  .title-view-germany div span {
+    position: absolute;
+    font-size: 23.7rem;
+    bottom: 610px;
+    height: 342px;
+    line-height: 353px;
+  }
+  .description-view-germany {
+    position: absolute;
+    font-size: 14px;
+    height: 75px !important;
+    bottom: 340px;
+    width: 25% !important;
+    left: 20px;
+    overflow: hidden;
+  }
+  .description-view-germany div {
+    position: relative;
+  }
+  .description-view-germany div span {
+    position: absolute;
+    font-size: 14px;
+    height: 60px !important;
+    bottom: 876px;
+    width: 25% !important;
+    left: 0;
+  }
+}
+/* START ANIMATE GERMANY */
+.animate-up-title-germany {
+  animation-duration: 1s;
+  animation-name: animateUpGermany;
+}
+
+@keyframes animateUpGermany {
+  from {
+    bottom: 810px;
+  }
+
+  to {
+    bottom: 610px;
+  }
+}
+
+.animate-down-title-germany {
+  animation-duration: 1s;
+  animation-name: animateDownGermany;
+}
+
+@keyframes animateDownGermany {
+  from {
+    bottom: 410px;
+  }
+
+  to {
+    bottom: 610px;
+  }
+}
+/* END ANIMATE GERMANY */
+
+/* START ANIMATE DESCRIPTION GERMANY */
+.animate-up-description-germany {
+  animation-duration: 1s;
+  animation-name: animateUpDescriptionGermany;
+}
+
+@keyframes animateUpDescriptionGermany {
+  from {
+    bottom: 976px;
+  }
+
+  to {
+    bottom: 876px;
+  }
+}
+
+.animate-down-description-germany {
+  animation-duration: 1s;
+  animation-name: animateDownDescriptionGermany;
+}
+
+@keyframes animateDownDescriptionGermany {
+  from {
+    bottom: 776px;
+  }
+
+  to {
+    bottom: 876px;
+  }
+}
+/* END ANIMATE DESCRIPTION GERMANY */

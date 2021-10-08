@@ -1,0 +1,18 @@
+.App {
+  font-family: "Neue Haas Unica Pro", "Lucida Sans", Tahoma, sans-serif;
+  position: relative;
+ 
+  .container-scroll-wheel {
+    height: 100vh;
+
+    div:first-child {
+      height: 100vh;
+      width: 100vw;
+
+      .container-view {
+        height: 100vh;
+        position: absolute;
+      }
+    }
+  }
+}

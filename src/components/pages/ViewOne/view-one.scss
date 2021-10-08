@@ -1,0 +1,154 @@
+/* default view */
+.container-view {
+  .title-view-default {
+    position: absolute;
+    height: 235px !important;
+    line-height: 242px;
+    bottom: 35px;
+    overflow: hidden;
+  }
+
+  .title-view-default div {
+    position: relative;
+  }
+  .title-view-default div span {
+    position: absolute;
+    font-size: 19rem;
+    height: 235px !important;
+    line-height: 242px;
+    bottom: 705px;
+    overflow: hidden;
+  }
+  .title-view-one-default {
+    position: absolute;
+    height: 220px !important;
+    line-height: 219px;
+    bottom: 260px;
+    overflow: hidden;
+  }
+  .title-view-one-default div {
+    position: relative;
+  }
+  .title-view-one-default div span {
+    position: absolute;
+    font-size: 19rem;
+    height: 220px !important;
+    line-height: 219px;
+    bottom: 725px;
+  }
+  .description-view-default {
+    position: absolute;
+    /* font-size: 14px; */
+    height: 60px !important;
+    bottom: 500px;
+    width: 30% !important;
+    left: 20px;
+    overflow: hidden;
+  }
+  .description-view-default div {
+    position: relative;
+  }
+  .description-view-default div span {
+    position: absolute;
+    font-size: 14px;
+    height: 60px !important;
+    bottom: 870px;
+    width: 25%;
+  }
+}
+
+/* START ANIMATE TITLE DEFAULT */
+.animate-title-default-up {
+  animation-duration: 1s;
+  animation-name: animateUpTitleDefault;
+}
+
+@keyframes animateUpTitleDefault {
+  from {
+    bottom: 900px;
+  }
+
+  to {
+    bottom: 705px;
+  }
+}
+
+.animate-title-default-down {
+  animation-duration: 1s;
+  animation-name: animateDownTitleDefault;
+}
+
+@keyframes animateDownTitleDefault {
+  from {
+    bottom: 500px;
+  }
+
+  to {
+    bottom: 705px;
+  }
+}
+/* END ANIMATE TITLE DEFAULT */
+
+/* START ANIMATE ONE DEFAULT */
+.animate-one-default-up {
+  animation-duration: 1s;
+  animation-name: animateUpOneDefault;
+}
+
+@keyframes animateUpOneDefault {
+  from {
+    bottom: 925px;
+  }
+
+  to {
+    bottom: 725px;
+  }
+}
+
+.animate-one-default-down {
+  animation-duration: 1s;
+  animation-name: animateDownOneDefault;
+}
+
+@keyframes animateDownOneDefault {
+  from {
+    bottom: 525px;
+  }
+
+  to {
+    bottom: 725px;
+  }
+}
+/* END ANIMATE ONE DEFAULT */
+
+/* START ANIMATE DESCRIPTION DEFAULT */
+.animate-description-default-up {
+  animation-duration: 1s;
+  animation-name: animateUpDescriptionDefault;
+}
+
+@keyframes animateUpDescriptionDefault {
+  from {
+    bottom: 970px;
+  }
+
+  to {
+    bottom: 870px;
+  }
+}
+
+.animate-description-default-down {
+  animation-duration: 1s;
+  animation-name: animateDownDescriptionDefault;
+}
+
+@keyframes animateDownDescriptionDefault {
+  from {
+    bottom: 770px;
+  }
+
+  to {
+    bottom: 870px;
+  }
+}
+/* END ANIMATE DESCRIPTION DEFAULT */

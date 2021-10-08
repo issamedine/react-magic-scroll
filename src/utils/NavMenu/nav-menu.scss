@@ -1,0 +1,63 @@
+.container-nav-menu {
+  position: absolute;
+  width: 100%;
+
+  svg {
+    width: 20%;
+    position: absolute;
+    top: 10px;
+    left: 34%;
+    right: 35%;
+    opacity: 1;
+    animation-duration: 4s;
+    animation-name: fadeIn;
+  }
+
+  .item-nav-menu:first-child {
+    position: absolute;
+    margin-left: 20px;
+    font-size: 14px;
+    top: 10px;
+    animation-duration: 1s;
+    animation-name: slideInDown;
+    z-index: 99;
+    cursor: default;
+  }
+
+  .item-nav-menu:last-child {
+    position: absolute;
+    font-size: 14px;
+    right: 20px;
+    top: 10px;
+    animation-duration: 1s;
+    animation-name: slideInDown;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    top: -15px;
+  }
+
+  50% {
+    top: -15px;
+  }
+
+  to {
+    top: 10px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
