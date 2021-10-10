@@ -13,7 +13,7 @@
     animation-name: fadeIn;
   }
 
-  .item-nav-menu:first-child {
+  .about-item {
     position: absolute;
     margin-left: 20px;
     font-size: 14px;
@@ -22,15 +22,83 @@
     animation-name: slideInDown;
     z-index: 99;
     cursor: default;
+
+    .wrapper-about-item {
+      position: relative;
+      overflow: hidden;
+      width: 50px;
+      height: 25px;
+      top: -5px;
+
+      .first-about-item {
+        position: absolute;
+        top: 5px;
+        transition: 0.3s;
+      }
+
+      .second-about-item {
+        position: absolute;
+        left: 0;
+        top: 28px;
+        transition: top 0.3s;
+      }
+
+      &:hover {
+        .first-about-item {
+          top: -15px;
+        }
+
+        .second-about-item {
+          position: absolute;
+
+          top: 5px;
+        }
+      }
+    }
   }
 
-  .item-nav-menu:last-child {
+  .episods-item {
     position: absolute;
     font-size: 14px;
     right: 20px;
     top: 10px;
     animation-duration: 1s;
     animation-name: slideInDown;
+    z-index: 99;
+    cursor: default;
+
+    .wrapper-episods-item {
+      position: relative;
+      overflow: hidden;
+      width: 65px;
+      height: 25px;
+      top: -5px;
+
+      .first-episods-item {
+        position: absolute;
+        top: 5px;
+        transition: 0.3s;
+      }
+
+      .second-episods-item {
+        position: absolute;
+        left: 0;
+        top: 28px;
+        transition: top 0.3s;
+      }
+
+      &:hover {
+        .first-episods-item {
+          top: -15px;
+        }
+
+        .second-episods-item {
+          position: absolute;
+
+          top: 5px;
+        }
+      }
+    }
   }
 }
 

@@ -4,7 +4,12 @@ import "./nav-menu.scss";
 const NavMenu = () => {
   return (
     <div className="container-nav-menu">
-      <div className="item-nav-menu animate__slideInDown">ABOUT</div>
+      <div className="about-item animate__slideInDown">
+        <div className="wrapper-about-item">
+          <span className="first-about-item">ABOUT</span>
+          <span className="second-about-item">ABOUT</span>
+        </div>
+      </div>
       <svg class="c0218 c028" viewBox="0 0 272 17">
         <path
           d="M2.74885 2.72903V7.73934H10.0206V10.0983H2.74885V16.6487H0V0.350586H10.5665V2.72903H2.74885Z"
@@ -81,7 +86,12 @@ const NavMenu = () => {
           ></path>
         </g>
       </svg>
-      <div className="item-nav-menu animate__slideInDown">EPISODS</div>
+      <div className="episods-item animate__slideInDown">
+        <div className="wrapper-episods-item">
+          <span className="first-episods-item">EPISODS</span>
+          <span className="second-episods-item">EPISODS</span>
+        </div>
+      </div>
     </div>
   );
 };
